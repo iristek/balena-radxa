@@ -6,9 +6,9 @@
 	path = layers/poky
 	url = https://github.com/balena-os/poky
 	branch = dunfell
-[submodule "layers/meta-radxa"]
-	path = layers/meta-radxa
-	url = https://github.com/radxa/meta-radxa.git
+[submodule "layers/meta-rockchip"]
+	path = layers/meta-rockchip
+	url = https://github.com/radxa/meta-rockchip
 	branch = dunfell
 [submodule "layers/meta-rust"]
 	path = layers/meta-rust

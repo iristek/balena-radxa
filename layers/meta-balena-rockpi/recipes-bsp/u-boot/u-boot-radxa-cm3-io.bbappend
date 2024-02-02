@@ -16,7 +16,7 @@ SRC_URI_append = " \
     file://0003-Integrate-with-Balena-u-boot-environment_radxa-cm3-io-rk3566.patch;patchdir=.. \
 "
 
-# avoid compile error while buildingin Jenkins: [Errno 11] write could not complete without blockingERROR: Task (/work/build/../layers/meta-radxa/recipes-bsp/u-boot/u-boot-radxa-cm3-io.bb:do_compile) failed with exit code '1'
+# avoid compile error while buildingin Jenkins: [Errno 11] write could not complete without blockingERROR: Task (/work/build/../layers/meta-rockchip/recipes-bsp/u-boot/u-boot-radxa-cm3-io.bb:do_compile) failed with exit code '1'
 # ref: https://www.yoctoproject.org/irc/%23yocto.2020-09-16.log.html and https://stackoverflow.com/questions/54185874/logging-chokes-on-blockingioerror-write-could-not-complete-without-blocking
 EXTRA_OEMAKE += " > /dev/null 2>&1"
 
